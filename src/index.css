@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: Roboto;
   background-color: #cfbea4;
+  height: 100%;
 }
 div {
   display: flex;
@@ -15,6 +16,7 @@ code {
 .App {
   flex-direction: column;
   width: 100%;
+  justify-content: space-between;
 }
 .header {
   justify-content: center;
@@ -42,10 +44,4 @@ code {
   flex-direction: column;
 }
 .footer{background-color:#ad9f89;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
  }
- @media (max-width: 1155px) {
-   .footer{position: inherit}}
